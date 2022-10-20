@@ -8,7 +8,7 @@ int main(){
 		int a, b, n, s;
 		cin >> a >> b >> n >> s;
 		int sum = s%n;
-		if (s % n <= b && 1ll * a * n + b >= s){
+		if (sum <= b && 1ll * a * n + b >= s){
 			printf("YES\n");
 		}
 		else{
